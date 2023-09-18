@@ -1,0 +1,18 @@
+cd desktop/td/correctionTD/td2
+
+nano bataille.C // CREATION D'UN SCRIPT DU LANGAGE C
+
+// ecriture du code apres CTRL + x pour la sauvegarde et on appuie sur Y
+
+gcc -o bataille bataille.c //DEBUG DU CODE
+
+./bataille // POUR EXECUTER LE CODE
+
+// ENVOIE depui la repo local  VERS LA REPOSITORY DISTANT ( github )
+
+git init
+git add --all
+git commit -m "ajout des fichiers"
+git remote add origin git@github.com:douaeRATBI/correctionTD.git
+git push
+
